@@ -3,9 +3,31 @@
     <head>
         <title>INPOS Official Website</title>
         <style>
-            html {
-                background-color: black;
+            body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size:;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 400% 400%;
+            animation: rainbowBackground 5s infinite;
+        }
+
+        @keyframes rainbowBackground {
+            0% {
+                background-position: 0% 50%;
             }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
             h1 {
                 color: white;
                 font-family: monospace;
