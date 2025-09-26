@@ -1,4 +1,5 @@
 # INPOS
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Moomerator46/INPOS-Official)
 Welcome to INPOS! INPOS is a system, contained in an EXE file. No need to worry about needing to
 use a virtual machine or your main system, because it runs using [Python](https://python.org)!
 
